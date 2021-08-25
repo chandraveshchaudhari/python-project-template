@@ -24,8 +24,29 @@ sys.path.append("/home/os_username/PycharmProjects/python_package_name/src")
 - use default options, just put project name, author name
 - run : sphinx-apidoc -o . /home/os_username/PycharmProjects/python_package_name/src
 - copy the modules.rst content above "Indices and tables" of index.rst
+- to install other themes run : pip install sphinx-rtd-theme
+- remember to edit config.py and change theme to 'sphinx_rtd_theme'
 - run : make html
 - if any errors occur run : make clean
 - rerun : make html after fixing errors
-- to install other themes run : pip install sphinx-rtd-theme
-- remember to edit config.py and change theme to above name
+
+#####  If you want to mention your source code with documentation. 
+- paste following values in conf.py
+```
+extensions = ['sphinx.ext.autodoc',
+              'sphinx.ext.autosummary',
+              'sphinx.ext.coverage',
+              'sphinx.ext.doctest',
+              'sphinx.ext.extlinks',
+              'sphinx.ext.ifconfig',
+              'sphinx.ext.napoleon',
+              'sphinx.ext.todo',
+              'sphinx.ext.viewcode',
+              ]
+# Add `code-include` so that the code-include directives used in this documentation work
+extensions += [
+    "code_include.extension",
+]
+```
+- pip install sphinx-code-include
+- run : make html
