@@ -8,7 +8,6 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Contact](#contact)
 - [Contribution](#contribution)
 - [Future Improvements](#future-improvements)
 
