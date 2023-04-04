@@ -15,7 +15,7 @@
 what it does. why it was made. what is future vision. 
 
 ### Authors
-<img align="left" width="231.95" height="75" src="https://github.com/chandraveshchaudhari/personal-information/blob/1afa9ad052ab9666e6a1a3854464a77ccab68438/images/christ.png">
+<img align="left" width="231.95" height="75" src="https://raw.githubusercontent.com/chandraveshchaudhari/personal-information/initial_setup/images/christ.png">
 
 [Chandravesh chaudhari][chandravesh linkedin], Doctoral candidate at [CHRIST (Deemed to be University), Bangalore, India][christ university website] under supervision of [Dr. Geetanjali purswani][geetanjali linkedin].
 
