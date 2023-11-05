@@ -9,7 +9,8 @@ pip and create the automated documentations
 - LICENSE.txt already have MIT license, just change year and name or use https://choosealicense.com/ to select other 
 license
 - README.md learn from https://guides.github.com/features/mastering-markdown/
-- skip to Generating distribution archives, upload to pip using instructions in https://packaging.python.org/tutorials/packaging-projects/ 
+- skip to Generating distribution archives, upload to pip using instructions in https://packaging.python.org/tutorials/packaging-projects/
+  or just use "python3 -m build" and "twine upload dist/*"
 - optional: you can also share your documentation via https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
 
 ## Steps to generating the documentation:
